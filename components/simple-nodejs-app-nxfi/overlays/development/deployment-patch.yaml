@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: simple-nodejs-app-nxfi
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-fnvs-tenant/nodejs-users/simple-nodejs-app-nxfi@sha256:67d2e66da3b04ff292de738f9a196082a778c3999b8cb90b9ae2a330e5cd6b98
+        name: my-nodejs
+        resources: {}
+status: {}
