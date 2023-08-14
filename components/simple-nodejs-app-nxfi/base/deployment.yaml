@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: simple-nodejs-app-nxfi
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-fnvs-tenant/nodejs-users/simple-nodejs-app-nxfi@sha256:67d2e66da3b04ff292de738f9a196082a778c3999b8cb90b9ae2a330e5cd6b98
         name: my-nodejs
         ports:
         - containerPort: 3001
